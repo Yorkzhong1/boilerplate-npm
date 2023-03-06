@@ -1,9 +1,14 @@
 {
 	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
 	"author":"Lanli",
+	"description":"This is a testing project",
+	"keywords":["freecodecamp","test2","pretty"],
+	"license":"MIT",
+	"version": "1.2.0",
+	"dependencies":{
+		"package-name":"version",
+		"express":"4.14.0"
+	},
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
